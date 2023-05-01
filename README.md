@@ -1,4 +1,4 @@
-# Warframe Cache Documentation
+# Warframe Game Files Documentation
 
 Warframe's game files are located in the directory `...SteamLibrary/steamapps/common/Warframe/Cache.Windows/`
 
