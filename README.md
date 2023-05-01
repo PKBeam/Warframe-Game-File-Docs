@@ -1,7 +1,6 @@
 # Warframe Cache Documentation
 
-Warframe's game files are located in this directory. 
-> (Steam Directory) ... Warframe/Cache.Windows/
+Warframe's game files are located in the directory `...SteamLibrary/steamapps/common/Warframe/Cache.Windows/`
 
 Each archive comes with two files: a `.cache` file containing the data and a `.toc` that provides a table of contents for the former - letting us know where to find all the individual files in the cache.
 
@@ -35,5 +34,5 @@ The `.cache` files contain all the actual game data.
 
 The files are compressed with a mixture of Oodle and custom LZ algorithms.
 
-The Oodle files can be decompressed with the `oo2core_XXX_win64.dll` found in `Warframe\Tools\Oodle\x64\final\`.  
+The Oodle files can be decompressed with the `oo2core_X_win64.dll` found in `...SteamLibrary/steamapps/common/Warframe\Tools\Oodle\x64\final\`.  
 See game file extractors (you can find them on GitHub) for the LZ algorithm.
